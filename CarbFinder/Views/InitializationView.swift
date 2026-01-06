@@ -2,7 +2,7 @@
 //  InitializationView.swift
 //  CarbFinder
 //
-//  Created on 15.12.25.
+//  Created by DS on 15.12.25.
 //  Loading screen shown during app initialization (Firebase, etc.)
 //  Rules Applied: General Coding, SwiftUI-specific Patterns, Apple Design Guidelines
 
