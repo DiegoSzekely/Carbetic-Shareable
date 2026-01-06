@@ -172,14 +172,9 @@ struct RecipeCaptureView: View {
                                             }
                                             
                                             If a recipe IS visible, for EACH ingredient in the recipe:
-                                            - Identify the ingredient name
-                                            - Estimate the weight in grams (for raw ingredients as listed in the recipe)
-                                            - Determine the carbohydrate percentage for that ingredient
-                                            - Calculate the net carb content in grams
                                             
-                                            Then calculate the total net carbohydrates for the ENTIRE RECIPE (sum of all ingredient carb contents).
-
-                                            Consider all visible ingredients and their quantities. If quantities are missing or unclear, estimate based on typical recipe proportions and indicate lower confidence.
+                                            
+                                            PARTS OF THE PROMPT HAVE BEEN REMOVED FOR THIS REPO
 
                                             Return ONLY valid JSON (no markdown fences, no extra commentary). Use this exact schema:
                                             {
