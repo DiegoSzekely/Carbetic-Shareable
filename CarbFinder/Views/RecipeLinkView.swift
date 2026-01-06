@@ -275,14 +275,10 @@ struct RecipeLinkView: View {
             }
             
             If a recipe IS found, for EACH ingredient in the recipe:
-            - Identify the ingredient name
-            - Estimate the weight in grams (for raw ingredients as listed in the recipe)
-            - Determine the carbohydrate percentage for that ingredient
-            - Calculate the net carb content in grams
             
-            Then calculate the total net carbohydrates for the ENTIRE RECIPE (sum of all ingredient carb contents).
+            
 
-            Please analyze the recipe content that has been fetched from the URL. Consider all visible ingredients and their quantities. If quantities are missing or unclear, estimate based on typical recipe proportions and indicate lower confidence.
+            PART OF THE PROMPT HAS BEEN REMOVED FOR THIS REPO
 
             Return ONLY valid JSON (no markdown fences, no extra commentary). Use this exact schema:
             {
