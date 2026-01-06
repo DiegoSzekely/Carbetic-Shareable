@@ -51,8 +51,8 @@ final class AIModelConfigManager {
     private(set) var accurateModelName: String = "gemini-2.5-pro"
     
     /// The current AI API key
-    /// Default fallback if Firebase fetch fails
-    private(set) var apiKey: String = "AIzaSyBbbQ-6XuKzJGIXjVQ_3ZY2GTlCahl3QIU"
+    /// Default fallback if Firebase fetch fails. AVAILABLE FOR LOCAL DEVELOPEMENT, not here
+    private(set) var apiKey: String = ""
     
     /// User's preferred model type (stored in UserDefaults)
     /// Rule: State Management - Persist user preference across app launches
@@ -118,7 +118,7 @@ final class AIModelConfigManager {
         remoteConfig.setDefaults([
             fastModelKey: "gemini-2.5-flash" as NSObject,
             accurateModelKey: "gemini-2.5-pro" as NSObject,
-            apiKeyKey: "AIzaSyBbbQ-6XuKzJGIXjVQ_3ZY2GTlCahl3QIU" as NSObject
+            apiKeyKey: "" as NSObject
         ])
         
         print("[AIConfig] Remote Config initialized with defaults - fast: gemini-2.5-flash, accurate: gemini-2.5-pro")
@@ -155,7 +155,7 @@ final class AIModelConfigManager {
             let fetchedAccurateModel = remoteConfig.configValue(forKey: accurateModelKey).stringValue ?? "gemini-2.5-pro"
             
             // Get the API key from Remote Config
-            let fetchedAPIKey = remoteConfig.configValue(forKey: apiKeyKey).stringValue ?? "AIzaSyBbbQ-6XuKzJGIXjVQ_3ZY2GTlCahl3QIU"
+            let fetchedAPIKey = remoteConfig.configValue(forKey: apiKeyKey).stringValue ?? ""
             
             // Update our stored values
             fastModelName = fetchedFastModel
