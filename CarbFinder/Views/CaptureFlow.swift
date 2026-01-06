@@ -1091,9 +1091,8 @@ struct Capture3View: View {
                                   \"mealSummary\": \"No food detected\"
                                 }
                                 
-                                If food IS visible, accurately identify each component of the meal.
-                                Use the visible reference item to precisely determine volumes, then convert to weight using appropriate food densities.
-                                Use net carbohydrate percentage to calculate the net carb content for each component and for the entire meal.
+                                PARTS OF THE PROMPT HAVE BEEN REMOVED FOR THIS REPO
+                                                  
 
                                 Return ONLY valid JSON (no markdown fences, no extra commentary). Use this exact schema and key names:
                                 {
