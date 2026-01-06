@@ -4,6 +4,7 @@
 //
 //  Created by Diego Szekely on 19.11.25.
 //THIS IS THE VIEW THAT DISCLAIMS INACURACIES. This is the only file for this - nobody should create a new file for this purpose
+// Obligate nature of displaying this disclaimer view has been removed. It is no longer necessary, as the app is no longer a medical device. 
 
 import SwiftUI
 
