@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Untitled (2000 x 1200 px) (2000 x 1400 px) (2000 x 1000 px).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Untitled (2000 x 1200 px) (2000 x 1400 px) (2000 x 1000 px) 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Untitled (2000 x 1200 px) (2000 x 1400 px) (2000 x 1000 px) 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

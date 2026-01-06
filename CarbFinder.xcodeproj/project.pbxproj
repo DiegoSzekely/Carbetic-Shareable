@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1947EBB72ECF4BDF004CCD9E /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 1947EBB62ECF4BDF004CCD9E /* FirebaseRemoteConfig */; };
+		196AB2902EC6552200B292D9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 196AB28F2EC6552200B292D9 /* FirebaseAuth */; };
+		196AB2922EC6552200B292D9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 196AB2912EC6552200B292D9 /* FirebaseFirestore */; };
+		19AE20392EA1046C00D4C007 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 19AE20382EA1046C00D4C007 /* FirebaseAI */; };
+		19AE203B2EA1046C00D4C007 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 19AE203A2EA1046C00D4C007 /* FirebaseAnalytics */; };
+		19AE203D2EA1046C00D4C007 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 19AE203C2EA1046C00D4C007 /* FirebaseAnalyticsCore */; };
+		19AE203F2EA1046C00D4C007 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 19AE203E2EA1046C00D4C007 /* FirebaseAnalyticsIdentitySupport */; };
+		19AE20412EA1046C00D4C007 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 19AE20402EA1046C00D4C007 /* FirebaseAppCheck */; };
+		19AE20602EA127D200D4C007 /* CarbFinderDiego.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 19AE205F2EA127D200D4C007 /* CarbFinderDiego.storekit */; };
+		19AE20632EA1294A00D4C007 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AE20622EA1294A00D4C007 /* StoreKit.framework */; };
+		19E45ECF2ED5FEDE0020F6F7 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 19E45ECE2ED5FEDE0020F6F7 /* DotLottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AE205F2EA127D200D4C007 /* CarbFinderDiego.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarbFinderDiego.storekit; sourceTree = "<group>"; };
+		19AE20622EA1294A00D4C007 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		19C007802E9E4D4A00AC1D77 /* CarbFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		19C0079B2E9E52C200AC1D77 /* Exceptions for "CarbFinder" folder in "CarbFinder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 19C0077F2E9E4D4A00AC1D77 /* CarbFinder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		19C007822E9E4D4A00AC1D77 /* CarbFinder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				19C0079B2E9E52C200AC1D77 /* Exceptions for "CarbFinder" folder in "CarbFinder" target */,
+			);
+			path = CarbFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C0077D2E9E4D4A00AC1D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1947EBB72ECF4BDF004CCD9E /* FirebaseRemoteConfig in Frameworks */,
+				19AE203F2EA1046C00D4C007 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				19AE203B2EA1046C00D4C007 /* FirebaseAnalytics in Frameworks */,
+				19AE203D2EA1046C00D4C007 /* FirebaseAnalyticsCore in Frameworks */,
+				19AE20632EA1294A00D4C007 /* StoreKit.framework in Frameworks */,
+				19AE20412EA1046C00D4C007 /* FirebaseAppCheck in Frameworks */,
+				196AB2922EC6552200B292D9 /* FirebaseFirestore in Frameworks */,
+				196AB2902EC6552200B292D9 /* FirebaseAuth in Frameworks */,
+				19AE20392EA1046C00D4C007 /* FirebaseAI in Frameworks */,
+				19E45ECF2ED5FEDE0020F6F7 /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AE20612EA1294A00D4C007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AE20622EA1294A00D4C007 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C007772E9E4D4A00AC1D77 = {
+			isa = PBXGroup;
+			children = (
+				19AE205F2EA127D200D4C007 /* CarbFinderDiego.storekit */,
+				19C007822E9E4D4A00AC1D77 /* CarbFinder */,
+				19AE20612EA1294A00D4C007 /* Frameworks */,
+				19C007812E9E4D4A00AC1D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C007812E9E4D4A00AC1D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C007802E9E4D4A00AC1D77 /* CarbFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C0077F2E9E4D4A00AC1D77 /* CarbFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C0078B2E9E4D4C00AC1D77 /* Build configuration list for PBXNativeTarget "CarbFinder" */;
+			buildPhases = (
+				19C0077C2E9E4D4A00AC1D77 /* Sources */,
+				19C0077D2E9E4D4A00AC1D77 /* Frameworks */,
+				19C0077E2E9E4D4A00AC1D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				19C007822E9E4D4A00AC1D77 /* CarbFinder */,
+			);
+			name = CarbFinder;
+			packageProductDependencies = (
+				19AE20382EA1046C00D4C007 /* FirebaseAI */,
+				19AE203A2EA1046C00D4C007 /* FirebaseAnalytics */,
+				19AE203C2EA1046C00D4C007 /* FirebaseAnalyticsCore */,
+				19AE203E2EA1046C00D4C007 /* FirebaseAnalyticsIdentitySupport */,
+				19AE20402EA1046C00D4C007 /* FirebaseAppCheck */,
+				196AB28F2EC6552200B292D9 /* FirebaseAuth */,
+				196AB2912EC6552200B292D9 /* FirebaseFirestore */,
+				1947EBB62ECF4BDF004CCD9E /* FirebaseRemoteConfig */,
+				19E45ECE2ED5FEDE0020F6F7 /* DotLottie */,
+			);
+			productName = CarbFinder;
+			productReference = 19C007802E9E4D4A00AC1D77 /* CarbFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C007782E9E4D4A00AC1D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					19C0077F2E9E4D4A00AC1D77 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 19C0077B2E9E4D4A00AC1D77 /* Build configuration list for PBXProject "CarbFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C007772E9E4D4A00AC1D77;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				19E45ECD2ED5FEDE0020F6F7 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 19C007812E9E4D4A00AC1D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C0077F2E9E4D4A00AC1D77 /* CarbFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C0077E2E9E4D4A00AC1D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AE20602EA127D200D4C007 /* CarbFinderDiego.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C0077C2E9E4D4A00AC1D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19C007892E9E4D4C00AC1D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AQGAG4S6WC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C0078A2E9E4D4C00AC1D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AQGAG4S6WC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C0078C2E9E4D4C00AC1D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = draft2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarbFinder/CarbFinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = AQGAG4S6WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Carbetic;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is requiered to capture your meals";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoszekely.CarbFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		19C0078D2E9E4D4C00AC1D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = draft2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarbFinder/CarbFinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = AQGAG4S6WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Carbetic;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is requiered to capture your meals";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoszekely.CarbFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C0077B2E9E4D4A00AC1D77 /* Build configuration list for PBXProject "CarbFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C007892E9E4D4C00AC1D77 /* Debug */,
+				19C0078A2E9E4D4C00AC1D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C0078B2E9E4D4C00AC1D77 /* Build configuration list for PBXNativeTarget "CarbFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C0078C2E9E4D4C00AC1D77 /* Debug */,
+				19C0078D2E9E4D4C00AC1D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+		19E45ECD2ED5FEDE0020F6F7 /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1947EBB62ECF4BDF004CCD9E /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		196AB28F2EC6552200B292D9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		196AB2912EC6552200B292D9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		19AE20382EA1046C00D4C007 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		19AE203A2EA1046C00D4C007 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		19AE203C2EA1046C00D4C007 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		19AE203E2EA1046C00D4C007 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		19AE20402EA1046C00D4C007 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AE20372EA1046C00D4C007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		19E45ECE2ED5FEDE0020F6F7 /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19E45ECD2ED5FEDE0020F6F7 /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 19C007782E9E4D4A00AC1D77 /* Project object */;
+}
